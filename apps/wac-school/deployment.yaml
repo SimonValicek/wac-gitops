@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: wac-school-container
-        image: xvaliceks/wac-school
+        image: xvaliceks/wac-school:latest
         imagePullPolicy: Always
         ports:
         - name: http
@@ -26,5 +26,3 @@ spec:
           limits:
             memory: "320M"
             cpu: "0.3"
-      imagePullSecrets:
-      - name: dockerhub-creds

@@ -7,7 +7,7 @@ spec:
   imageRepositoryRef:
     name: wac-school
   filterTags:
-    pattern: ".*"
+    pattern: '^latest$'
   policy:
     alphabetical:
       order: asc
