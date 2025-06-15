@@ -33,5 +33,5 @@ spec:
     push:
       branch: master
   update:
-    path: ./components/version-developers
+    path: ../../../components/version-developers
     strategy: Setters
