@@ -10,4 +10,4 @@ resources:
 
 labels:
   - pairs:
-      app.kubernetes.io/component: xvaliceks-wac-school
+      app.kubernetes.io/component: wac-school

@@ -4,5 +4,5 @@ metadata:
   name: xvaliceks-wac-school
 spec:
   frontendClass: md-shell
-  service: http://xvaliceks-wac-school.wac-hospital
+  service: http://xvaliceks-wac-school.wac-gitops
   modulePath: build/wac-school.esm.js

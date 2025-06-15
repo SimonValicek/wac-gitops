@@ -4,5 +4,5 @@ metadata:
   name: wac-project
 spec:
   frontendClass: md-shell
-  service: http://xvaliceks-wac-project.wac-hospital
+  service: http://xvaliceks-wac-project.wac-gitops
   modulePath: build/wac-project.esm.js
