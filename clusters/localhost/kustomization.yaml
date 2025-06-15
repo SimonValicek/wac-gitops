@@ -3,3 +3,7 @@ kind: Kustomization
 
 resources:
   - gitops
+  - install
+  - prepare
+  - ../..apps/wac-project
+  - ../..apps/wac-school
