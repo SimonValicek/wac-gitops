@@ -26,3 +26,5 @@ spec:
           limits:
             memory: "320M"
             cpu: "0.3"
+      imagePullSecrets:
+        - name: dockerhub-creds
