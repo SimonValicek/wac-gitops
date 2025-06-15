@@ -8,3 +8,6 @@ labels:
 
 resources:
   - ../../../../apps/wac-school
+
+components:
+  - ../../../../components/version-developers
