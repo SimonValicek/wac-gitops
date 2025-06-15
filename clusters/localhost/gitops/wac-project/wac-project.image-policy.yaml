@@ -7,7 +7,7 @@ spec:
   imageRepositoryRef:
     name: wac-project
   filterTags:
-    pattern: "^latest$"
+    pattern: ".*"
   policy:
     alphabetical:
       order: asc
