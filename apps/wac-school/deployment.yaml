@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: wac-school-container
-        image: xvaliceks/wac-school:latest
+        image: xvaliceks/wac-school
         imagePullPolicy: Always
         ports:
         - name: http
