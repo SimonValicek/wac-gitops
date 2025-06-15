@@ -1,0 +1,13 @@
+apiVersion: image.toolkit.fluxcd.io/v1beta2
+kind: ImagePolicy
+metadata:
+  name: wac-project
+  namespace: wac-gitops
+spec:
+  imageRepositoryRef:
+    name: wac-project
+  filterTags:
+    pattern: "^master.*"
+  policy:
+    alphabetical:
+      order: asc
