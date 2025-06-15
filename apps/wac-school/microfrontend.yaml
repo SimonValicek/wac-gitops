@@ -1,0 +1,8 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: MicroFrontend
+metadata:
+  name: xvaliceks-wac-school
+spec:
+  frontendClass: md-shell
+  service: http://xvaliceks-wac-school.wac-hospital
+  modulePath: build/wac-school.esm.js
