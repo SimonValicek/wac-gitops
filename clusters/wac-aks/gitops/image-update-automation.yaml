@@ -34,4 +34,4 @@ spec:
       branch: master
   update:
     path: ../../../components/version-release
-    strategy: Setters
+    strategy: SettersAndAnnotations

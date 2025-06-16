@@ -4,8 +4,10 @@ kind: Component
 images:
 - name: xvaliceks/wac-school
   newName: xvaliceks/wac-school 
-  newTag: latest                  
+  newTag: latest
+  digest: sha256:0000000000000000000000000000000000000000000000000000000000000000                 
 
 - name: xvaliceks/wac-project
   newName: xvaliceks/wac-project 
-  newTag: latest                   
+  newTag: latest     
+  digest: sha256:0000000000000000000000000000000000000000000000000000000000000000              
