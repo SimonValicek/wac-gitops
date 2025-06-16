@@ -4,9 +4,9 @@ kind: Component
 images:
 - name: xvaliceks/wac-school
   newName: xvaliceks/wac-school 
-  newTag: latest                
+  newTag: master               
 
 - name: xvaliceks/wac-project
   newName: xvaliceks/wac-project 
-  newTag: latest     
+  newTag: master     
            
