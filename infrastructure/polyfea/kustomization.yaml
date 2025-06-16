@@ -4,6 +4,8 @@ kind: Kustomization
 resources:
   - https://github.com/polyfea/manifests//controller
   - https://github.com/polyfea/manifests//md-shell
+  - http-route.yaml           
+  - http-route-wac-school.yaml
 
 patches:
   - path: ./patches/service.yaml

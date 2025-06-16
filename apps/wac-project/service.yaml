@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: xvaliceks-wac-project
-  namespace: wac-gitops
+  namespace: wac-hospital
 spec:
   selector:
     pod: xvaliceks-wac-project-label

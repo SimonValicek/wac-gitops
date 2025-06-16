@@ -7,7 +7,7 @@ spec:
   element: xvaliceks-wac-school-wl-app
   attributes:
     - name: base-path
-      value: /wac-school-wl/
+      value: /ambulance-wl/
     - name: api-base
       value: http://localhost:5001/api
     - name: ambulance-id
@@ -15,4 +15,4 @@ spec:
   displayRules:
     - allOf:
         - context-name: main-content
-        - path: "^(\\.?/)?xvaliceks-wac-wl(/.*)?$"
+        - path: "^/ambulance-wl(/.*)?$"
