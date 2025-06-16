@@ -1,0 +1,14 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+# where everything will live
+namespace: wac-hospital
+
+# deploy both of your microfrontends
+resources:
+  - ../../../apps/wac-school
+  - ../../../apps/wac-project
+
+# and overlay the image‐tag component you defined:
+components:
+  - ../../../components/version-release
