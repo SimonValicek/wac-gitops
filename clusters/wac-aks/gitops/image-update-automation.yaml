@@ -7,7 +7,7 @@ spec:
   interval: 1m0s
   sourceRef:
     kind: GitRepository
-    name: gitops-repo
+    name: xvaliceks-gitops-repo
   git:
     checkout:
       ref:
