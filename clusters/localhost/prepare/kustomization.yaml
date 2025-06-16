@@ -6,4 +6,4 @@ resources:
   - ../../../infrastructure/fluxcd
 
 components:
-  - ../../../components/version-developers
+  - ../../../../components/version-developers
