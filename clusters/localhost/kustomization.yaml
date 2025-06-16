@@ -5,5 +5,8 @@ resources:
   - gitops
   - install
   - prepare
-  - ../..apps/wac-project
-  - ../..apps/wac-school
+  - ../../apps/wac-project
+  - ../../apps/wac-school
+
+components:
+  - ../../components/version-developers

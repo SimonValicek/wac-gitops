@@ -4,7 +4,10 @@ metadata:
   name: xvaliceks-wac-school-content
 spec:
   microFrontend: xvaliceks-wac-school
-  element: sv-ambulance-wl-list
+  element: xvaliceks-wac-school-wl-app
+  attributes:
+    - name: base-path
+      value: /wac-school-wl/
   displayRules:
     - allOf:
         - context-name: main-content
