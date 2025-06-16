@@ -15,7 +15,7 @@ spec:
     - name: material-icon
       value: home_health
     - name: href
-      value: ./xvaliceks-wac-wl
+      value: ./ambulance-wl
   priority: 10
   displayRules:
     - anyOf:
