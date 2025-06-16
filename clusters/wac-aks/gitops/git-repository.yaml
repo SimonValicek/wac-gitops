@@ -7,5 +7,5 @@ spec:
   interval: 1m0s
   url: https://github.com/SimonValicek/wac-gitops
   ref:
-    branch: main
+    branch: master
   timeout: 1m0s
