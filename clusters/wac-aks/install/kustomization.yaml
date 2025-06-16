@@ -5,10 +5,7 @@ namespace: wac-hospital
 
 resources:
   - ../../../apps/wac-school
-  - ../../../apps/wac-project
 
 images:
   - name: xvaliceks/wac-school
-    newTag: v1.0.0
-  - name: xvaliceks/wac-project
     newTag: v1.0.0
