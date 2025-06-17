@@ -1,24 +1,23 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: xvaliceks-wac-project-deployment
+  name: wac-project-api
 spec:
   replicas: 2
   selector:
     matchLabels:
-      pod: xvaliceks-wac-project-label
+      app: wac-project-api
   template:
     metadata:
       labels:
-        pod: xvaliceks-wac-project-label
+        app: wac-project-api
     spec:
       containers:
-      - name: wac-project-container
-        image: xvaliceks/wac-project:v1.0.2
+      - name: wac-project-api
+        image: xvaliceks/wac-project-api:latest
         imagePullPolicy: Always
         ports:
-        - name: http
-          containerPort: 8080
+        - containerPort: 8080
         resources:
           requests:
             memory: "32M"

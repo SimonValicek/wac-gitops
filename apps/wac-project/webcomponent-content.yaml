@@ -3,9 +3,9 @@ kind: WebComponent
 metadata:
   name: xvaliceks-wac-project-content
 spec:
-  microFrontend: xvaliceks-wac-project
-  element: sv-ambulance-wl-list
+  microFrontend: polyfea-md-shell
+  element: reservation-manager
   displayRules:
     - allOf:
         - context-name: main-content
-        - path: "^(\\.?/)?xvaliceks-wac-wl(/.*)?$"
+        - path: "^/fea/xvaliceks-ui(/.*)?$"

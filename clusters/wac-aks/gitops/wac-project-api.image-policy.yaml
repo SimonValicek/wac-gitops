@@ -1,0 +1,13 @@
+apiVersion: image.toolkit.fluxcd.io/v1beta1
+kind: ImagePolicy
+metadata:
+  name: wac-project-api
+  namespace: wac-hospital
+spec:
+  imageRepositoryRef:
+    name: wac-project-api   # refers to the ImageRepository you just created
+  filterTags:
+    pattern: 'master.*'      # track only the 'latest' tag, adjust if needed
+  policy:
+    alphabetical:
+      order: asc       

@@ -6,5 +6,7 @@ resources:
   - install.kustomization.yaml
   - cd.kustomization.yaml
   - image-update-automation.yaml
-  - wac-school/wac-school.image-repository.yaml
-  - wac-school/wac-school.image-policy.yaml
+  - wac-project-api.image-repository.yaml
+  - wac-project-api.image-policy.yaml
+  - wac-project.image-repository.yaml
+  - wac-project.image-policy.yaml

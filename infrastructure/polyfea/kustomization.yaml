@@ -2,10 +2,17 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 resources:
+  # Polyfea controller & shell
   - https://github.com/polyfea/manifests//controller
   - https://github.com/polyfea/manifests//md-shell
-  - http-route.yaml           
-  - http-route-wac-school.yaml
+
+  - ../../apps/wac-project        # frontend overlay
+  - ../../apps/wac-project-api    # backend overlay
+
+  # HTTPRoutes 
+  - http-route.yaml               # polyfea root
+  - http-route-wac-project.yaml   # frontend route
+  - http-route-wac-project-api.yaml # API route
 
 patches:
   - path: ./patches/service.yaml

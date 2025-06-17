@@ -4,11 +4,12 @@ kind: Kustomization
 resources:
   - deployment.yaml
   - service.yaml
-  - webcomponent-link.yaml
-  - webcomponent-content.yaml
-  - microfrontend.yaml
+
+patchesStrategicMerge:
+  - patch-mongo-host.yaml
 
 namespace: wac-hospital
 
-commonLabels:
-  app: wac-project
+images:
+  - name: xvaliceks/wac-project-api
+    newTag: v1.1.5

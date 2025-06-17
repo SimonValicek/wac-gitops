@@ -4,8 +4,11 @@ kind: Kustomization
 namespace: wac-hospital
 
 resources:
-  - ../../../apps/wac-school
+- ../../../apps/wac-project
+- ../../../apps/wac-project-api
 
 images:
-  - name: xvaliceks/wac-school
-    newTag: v1.0.0
+  - name: xvaliceks/wac-project
+    newTag: v1.0.2
+  - name: xvaliceks/wac-project-api
+    newTag: v1.1.5

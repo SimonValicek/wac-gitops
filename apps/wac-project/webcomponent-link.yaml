@@ -7,7 +7,7 @@ spec:
   element: polyfea-md-app
   attributes:
     - name: headline
-      value: Zoznam čakajúcich xvaliceks
+      value: Projekt Valíček
     - name: short-headline
       value: Zoznam čakajúcich xvaliceks
     - name: supporting-text
@@ -15,7 +15,7 @@ spec:
     - name: material-icon
       value: home_health
     - name: href
-      value: ./ambulance-wl
+      value: ./fea/xvaliceks-ui/
   priority: 10
   displayRules:
     - anyOf:

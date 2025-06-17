@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: wac-project-api
+spec:
+  template:
+    spec:
+      containers:
+      - name: wac-project-api
+        env:
+        - name: AMBULANCE_API_MONGODB_HOST
+          value: "mongodb.wac-hospital-system.svc.cluster.local"
+        - name: AMBULANCE_API_MONGODB_USERNAME
+          value: ""   # blank out username
+        - name: AMBULANCE_API_MONGODB_PASSWORD
+          value: ""   # blank out password
